@@ -60,7 +60,7 @@ fourthAnswer.innerText=questionsArray[currentPosition].answers[3];
     }
 newQuestion();
 
-// function for once all the questions have been answered or you run out of time - one issue, don't think it matters
+// function for once all the questions have been answered or you run out of time
 function endQuiz (){
     // stops timer
         clearInterval(timerInterval);
