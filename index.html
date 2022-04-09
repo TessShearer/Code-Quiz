@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Quiz</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+
+</head>
+<body>
+
+<!-- Header - includes timer and high scores -->
+    <header>
+<div class="scores" id="scores">
+    View High Scores
+</div>
+<div class="timer">
+    time: <span id="time">60</span> seconds
+</div>
+    </header>
+
+<!--Main Section, includes text, and during the quiz includes questions-->
+    <main>
+        <h2 class="question" id="question">Coding Quiz!</h2>
+        <p class="description" id="description">
+            This quiz will include questions that you must answer within a time limit. Each incorrect answer will decrease your remaining time. At the end of the quiz, your remaining time will be your final score. Good luck, study hard, and have fun!
+        </p>
+        <button id="startquiz">start Quiz</button>
+    </main>
+
+    <script src="./assets/script.js"></script>
+</body>
+</html>

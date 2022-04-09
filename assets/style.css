@@ -1,0 +1,30 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Header CSS */
+
+header {
+    height: 50px;
+}
+.timer {
+    float: right;
+    margin-right: 20px;
+}
+.scores {
+    float: left;
+    margin-left: 20px;
+}
+
+/* Main CSS */
+
+main {
+    text-align: center;
+}
+.question {
+    font-size: 35px;
+}
+.description {
+    width: 50%;
+    margin: 50px auto;
+}
